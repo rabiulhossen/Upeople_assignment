@@ -37,7 +37,7 @@ def any_lowercase4(s):
           flag = flag or c.islower()
      return flag
 
-print(any_lowercase4("Hello"))
+# print(any_lowercase4("HeLLo"))
 # 5
 
 def any_lowercase5(s):
@@ -45,3 +45,11 @@ def any_lowercase5(s):
           if not c.islower():
                return False
      return True
+ 
+n = 10
+while n != 1:
+    print (n,)
+    if n % 2 == 0: # n is even
+        n = n // 2
+    else: # n is odd
+        n = n * 3 + 1
